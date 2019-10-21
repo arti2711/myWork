@@ -1,0 +1,94 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background: #555;
+}
+#defaultDiv
+{
+    width: 50%;
+    margin: 20px auto;
+    border: 2px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background: #888;
+    font-size: 12.5pt;
+    letter-spacing: 0.7pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+#content
+{
+    width: 80%;
+    margin: 0px auto;
+}
+#myPhoto
+{
+    background: url(/img/Me.jpg) no-repeat;
+    background-size: contain;
+    width: 55%;
+    height: auto;
+    min-height: 255px;
+    overflow: hidden;
+    border-radius: 20%;
+    float: left;
+    margin-right: 40px;
+}
+#fstBlock
+{
+    height: auto;
+    min-height: 250px;
+    overflow: hidden;
+}
+#info
+{
+    margin-top: 50px;
+}
+#info2
+{
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+#info3
+{
+    text-align: center;
+}
+.someText
+{
+    display: inline-block;
+    margin: 0px 10%;
+    text-align: left;
+}
+#aboutMe
+{
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+#aboutMe:hover
+{
+    color: paleturquoise;
+}
+#aboutMe:active
+{
+    color: red;
+}
+table, td
+{
+    border: 1.5px solid lavender;
+    border-spacing: 0px;
+    text-align: center;
+}
+td
+{
+    padding: 2px 20px;
+}
+#result
+{
+    display: block;
+    margin-top: 20px;
+}
